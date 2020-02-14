@@ -2,7 +2,7 @@
   "name": "front",
   "version": "1.0.0",
   "description": "Matcha front",
-  "author": "Louise P. <cpieri@student.42.fr> && Anne Q. <aquan@student.42.fr>",
+  "author": "Louise P. <cpieri@student.42.fr>",
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
@@ -12,15 +12,20 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "ajv": "^6.11.0",
     "axios": "^0.19.2",
     "babel": "^6.23.0",
     "bulma-slider": "^2.0.0",
+    "core-js": "^3.6.4",
     "crypto": "^1.0.1",
+    "ejs": "^3.0.1",
+    "fsevents": "^1.2.9",
+    "serialize-javascript": "^2.1.2",
     "vue": "^2.6.11",
     "vue-particles": "^1.0.9",
-    "vue-router": "^3.0.1",
+    "vue-router": "^3.1.5",
     "vue-session": "^1.0.0",
-    "vue-upload-image": "^1.1.2"
+    "vue-upload-image": "^1.1.5"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
@@ -42,12 +47,12 @@
     "extract-text-webpack-plugin": "^3.0.2",
     "file-loader": "^1.1.4",
     "friendly-errors-webpack-plugin": "^1.6.1",
-    "html-webpack-plugin": "^2.30.1",
+    "html-webpack-plugin": "^3.2.0",
     "jest": "^24.9.0",
     "jest-serializer-vue": "^0.3.0",
-    "node-notifier": "^5.1.2",
+    "node-notifier": "^5.4.3",
     "node-sass": "^4.13.1",
-    "optimize-css-assets-webpack-plugin": "^5.0.1",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
     "ora": "^1.2.0",
     "portfinder": "^1.0.25",
     "postcss-import": "^11.0.0",
@@ -63,16 +68,16 @@
     "vue-jest": "^1.0.2",
     "vue-loader": "^13.3.0",
     "vue-style-loader": "^3.0.1",
-    "vue-template-compiler": "^2.5.2",
+    "vue-template-compiler": "^2.6.11",
     "webpack": "^4.41.6",
     "webpack-bundle-analyzer": "^3.6.0",
     "webpack-cli": "^3.3.11",
-    "webpack-dev-server": "^2.9.1",
-    "webpack-merge": "^4.1.0"
+    "webpack-dev-server": "^3.10.3",
+    "webpack-merge": "^4.2.2"
   },
   "engines": {
-    "node": ">= 6.0.0",
-    "npm": ">= 3.0.0"
+    "node": ">= 12.0.0",
+    "npm": ">= 6.0.0"
   },
   "browserslist": [
     "> 1%",
