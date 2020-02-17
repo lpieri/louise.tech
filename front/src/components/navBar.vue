@@ -108,11 +108,11 @@
     left: -2px;
   } */
 
-  #div-notifs {
-    height: 50vh;
-    width: 21vh;
-    overflow: auto;
-  }
+  /*#div-notifs {*/
+    /*height: 50vh;*/
+    /*width: 21vh;*/
+    /*overflow: auto;*/
+  /*}*/
 
   #logo {
     min-height: 70px;

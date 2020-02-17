@@ -2,14 +2,14 @@
 const path = require('path')
 const utils = require('./utils')
 const config = require('../config')
-const vueLoaderConfig = require('./vue-loader.conf')
-const ExtractTextPlugin = require("extract-text-webpack-plugin")
+const HtmlWebpackPlugin = require('html-webpack-plugin')
+const CopyWebpackPlugin = require('copy-webpack-plugin')
+const MiniCssExtractPlugin = require('mini-css-extract-plugin')
+const { VueLoaderPlugin } = require('vue-loader')
 
 function resolve (dir) {
   return path.join(__dirname, '..', dir)
 }
-
-
 
 module.exports = {
   context: path.resolve(__dirname, '../'),
@@ -32,14 +32,21 @@ module.exports = {
   },
   module: {
     rules: [
+      // {
+      //   test: /\.(js|vue)$/,
+      //   use: 'eslint-loader',
+      //   enforce: 'pre'
+      // },
       {
         test: /\.vue$/,
         loader: 'vue-loader',
-        options: vueLoaderConfig
       },
       {
         test: /\.js$/,
-        loader: 'babel-loader',
+        exclude: /node_modules/,
+        use: {
+          loader: 'babel-loader',
+        },
         include: [resolve('src'), resolve('test'), resolve('node_modules/webpack-dev-server/client')]
       },
       {
@@ -66,15 +73,25 @@ module.exports = {
           name: utils.assetsPath('fonts/[name].[hash:7].[ext]')
         }
       },
+      // {
+      //   test: /\.s[ac]ss$/i,
+      //   use: [
+      //     // Creates `style` nodes from JS strings
+      //     'style-loader',
+      //     // Translates CSS into CommonJS
+      //     'css-loader',
+      //     // Compiles Sass to CSS
+      //     'sass-loader',
+      //   ],
+      // },
       {
         test: /\.scss$/,
-        use: ExtractTextPlugin.extract({
-          fallback: 'style-loader',
-          use: [
-            'css-loader',
-            'sass-loader'
-          ]
-        })
+        use: [
+          MiniCssExtractPlugin.loader,
+          'sass-loader',
+          'style-loader',
+          'css-loader',
+        ]
       }
     ]
   },
@@ -89,5 +106,23 @@ module.exports = {
     net: 'empty',
     tls: 'empty',
     child_process: 'empty'
-  }
+  },
+  plugins: [
+    new HtmlWebpackPlugin({
+      filename: 'index.html',
+      template: 'index.html',
+      inject: true
+    }),
+    new VueLoaderPlugin(),
+    new CopyWebpackPlugin([
+      {
+        from: path.resolve(__dirname, '../static'),
+        to: config.dev.assetsSubDirectory,
+        ignore: ['.*']
+      }
+    ]),
+    new MiniCssExtractPlugin({
+      filename: 'css/styles.css'
+    }),
+  ]
 }
