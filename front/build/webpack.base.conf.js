@@ -32,11 +32,6 @@ module.exports = {
   },
   module: {
     rules: [
-      // {
-      //   test: /\.(js|vue)$/,
-      //   use: 'eslint-loader',
-      //   enforce: 'pre'
-      // },
       {
         test: /\.vue$/,
         loader: 'vue-loader',
@@ -53,6 +48,7 @@ module.exports = {
         test: /\.(png|jpe?g|gif|svg)(\?.*)?$/,
         loader: 'url-loader',
         options: {
+          esModule:false,
           limit: 10000,
           name: utils.assetsPath('img/[name].[hash:7].[ext]')
         }
@@ -73,17 +69,6 @@ module.exports = {
           name: utils.assetsPath('fonts/[name].[hash:7].[ext]')
         }
       },
-      // {
-      //   test: /\.s[ac]ss$/i,
-      //   use: [
-      //     // Creates `style` nodes from JS strings
-      //     'style-loader',
-      //     // Translates CSS into CommonJS
-      //     'css-loader',
-      //     // Compiles Sass to CSS
-      //     'sass-loader',
-      //   ],
-      // },
       {
         test: /\.scss$/,
         use: [

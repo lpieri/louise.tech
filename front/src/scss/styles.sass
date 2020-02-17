@@ -1,10 +1,11 @@
 @charset "utf-8"
-
+//@import url('https://fonts.googleapis.com/css?family=Lato&display=swap')
+@import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i&display=swap')
 //  Variables
 
 $default_color: #ffffff
-$second_color: #8e8e8e
-$text_color: #424242
+$second_color: #e8e8e8
+$text_color: #E1CCF0
 $default_hover_color: rgba(240, 201, 196, 1)
 
 
@@ -12,7 +13,7 @@ $navbar-background-color: $default_color
 $navbar-item-hover-background-color: $default_hover_color
 $navbar-item-hover-color: black
 
-$link: $default_color
+$link: $text_color
 $success: $second_color
 
 $box-width: 800px
@@ -22,6 +23,8 @@ $card-content-padding: 3.7rem
 $card-background-color: transparent
 $card-border: transparent
 
+$family-primary: Lato
+
 //  General Class
 
 .error
@@ -29,6 +32,11 @@ $card-border: transparent
 
 .full-height
   height: 100vh
+
+.h1-title
+  font-family: Lato, sans-serif !important
+  font-style: italic
+  color: $text_color !important
 
 .particles
   background-color: $second_color

@@ -2,7 +2,8 @@
   <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
       <router-link class="navbar-item" to="/">
-        <img src="../assets/logo.png" alt="logo" id="logo"/>
+        <!--<h1 class="title is-1 h1-title">louise.lgbt</h1>-->
+        <!--<img src="../assets/logo.png" alt="logo" id="logo"/>-->
       </router-link>
 
       <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
@@ -16,8 +17,8 @@
     <div id="navbarBasicExample" class="navbar-menu">
       <div class="navbar-start">
         <div class="buttons">
-          <router-link class="button is-rounded is-medium is-success" to="/">
-            Home
+          <router-link to="/">
+            <h1 class="title is-1 h1-title">louise.lgbt</h1>
           </router-link>
         </div>
       </div>
@@ -97,6 +98,8 @@
 </script>
 
 <style>
+
+
   /* #class-new-notif {
     background: red;
     border-radius: 50%;
