@@ -5,7 +5,7 @@
         <img src="../../assets/logo.png" alt="logo" id="logo"/>
       </figure>
     </div>
-    <vue-particles color="#E0CBF0" linesColor="#E0CBF0" shapeType="polygon" class="full-height"></vue-particles>
+    <vue-particles color="#E0CBF0" linesColor="#E0CBF0" shapeType="circle" class="full-height" :moveSpeed="1.5" :click-effect="false" :hoverEffect="false"></vue-particles>
   </section>
 </template>
 
