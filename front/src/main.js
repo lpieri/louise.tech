@@ -5,13 +5,20 @@ import App from './App'
 import router from './router'
 // import axios from 'axios'
 // import VueSession from 'vue-session'
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+import { library } from '@fortawesome/fontawesome-svg-core'
 import VueParticles from 'vue-particles'
-//
+
+import { faPlus } from '@fortawesome/free-solid-svg-icons'
+
+library.add(faPlus)
+
 // Vue.use(VueSession)
 Vue.use(VueParticles)
+Vue.component('font-awesome-icon', FontAwesomeIcon)
 
 require('./scss/styles.sass');
-//
+
 // Vue.config.productionTip = false
 // Vue.prototype.$http = axios
 //
