@@ -1,10 +1,7 @@
 <template>
   <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
-      <router-link class="navbar-item" to="/">
-        <!--<h1 class="title is-1 h1-title">louise.lgbt</h1>-->
-        <!--<img src="../assets/logo.png" alt="logo" id="logo"/>-->
-      </router-link>
+      <router-link class="navbar-item" to="/"></router-link>
 
       <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
         <span aria-hidden="true"></span>
@@ -96,30 +93,3 @@
     }
   }
 </script>
-
-<style>
-
-
-  /* #class-new-notif {
-    background: red;
-    border-radius: 50%;
-    height: 20px;
-    width: 20px;
-    font-size: small;
-    position: relative;
-    top: -7px;
-    left: -2px;
-  } */
-
-  /*#div-notifs {*/
-    /*height: 50vh;*/
-    /*width: 21vh;*/
-    /*overflow: auto;*/
-  /*}*/
-
-  #logo {
-    min-height: 70px;
-    min-width: 70px;
-  }
-
-</style>

@@ -1,24 +1,27 @@
 <template>
   <div>
     <SectionParticales></SectionParticales>
-    <!--<template-section :data="xpData"></template-section>-->
+    <projects-section></projects-section>
+    <talks-section></talks-section>
   </div>
 </template>
 
 <script>
 import SectionParticales from '@/components/index/sectionParticles'
-import TemplateSection from '@/components/index/templateSection'
+import TalksSection from '@/components/index/talksSection'
+import ProjectsSection from '@/components/index/projectsSection'
 
 export default {
 	name: 'Index',
   components: {
     SectionParticales,
-    TemplateSection
+    TalksSection,
+    ProjectsSection
   },
   data () {
 	  return {
 	    xpData: {
-	      title: null,
+	      title: "Talks :",
         profilePicture: null,
         textH3: null,
         textH4: null
