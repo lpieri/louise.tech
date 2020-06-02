@@ -77,7 +77,7 @@ export default {
         if (this.ft_is_active === true) {
           this.ft_is_active = false
         }
-        this.perso_is_active = !this.perso_is_active
+        this.perso_is_active = true
         if (this.perso_is_active) {
           this.project_to_print = this.projects_perso
         }
@@ -85,7 +85,7 @@ export default {
         if (this.perso_is_active === true) {
           this.perso_is_active = false
         }
-        this.ft_is_active = !this.ft_is_active
+        this.ft_is_active = true
         if (this.ft_is_active) {
           this.project_to_print = this.ft_projects
         }
