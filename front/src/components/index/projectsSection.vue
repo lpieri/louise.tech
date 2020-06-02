@@ -19,20 +19,20 @@
 
           <div class="column is-9">
 
-            <div id="carousel" v-if="perso_is_active || ft_is_active">
+              <div id="carousel" class="columns is-multiline" v-if="perso_is_active || ft_is_active">
 
-              <div class="card card-project" v-for="project in project_to_print">
-                  <div class="media">
-                    <div class="media-content">
-                      <p class="title is-4">{{ project.name }}</p>
+                <div class="column is-5 card card-project" v-for="project in project_to_print">
+                    <div class="media">
+                      <div class="media-content">
+                        <p class="title is-4">{{ project.name }}</p>
+                      </div>
                     </div>
-                  </div>
 
-                  <div class="content">
-                    {{ project.description }}
-                  </div>
+                    <div class="content">
+                      {{ project.description }}
+                    </div>
+                </div>
               </div>
-            </div>
 
           </div>
         </div>
@@ -46,7 +46,7 @@ export default {
   name: "projectsSection",
   data () {
     return {
-      ft_is_active: false,
+      ft_is_active: true,
       perso_is_active: false,
       project_to_print: {},
       projects_perso: {
@@ -59,6 +59,14 @@ export default {
         0: {
           name: "Swifty Proteins",
           description: "Project 42, where we have to create an iOS application from scratch."
+        },
+        1: {
+          name: "Swifty Companion",
+          description: "Project 42, where we have to create an iOS application from scratch using the api of 42 and OAuth2."
+        },
+        2: {
+          name: "Boot2Root",
+          description: "An IT security challenge."
         }
       }
     }
@@ -82,13 +90,23 @@ export default {
           this.project_to_print = this.ft_projects
         }
       }
+    },
+  },
+  mounted() {
+    if (this.ft_is_active) {
+      this.project_to_print = this.ft_projects
     }
   }
 }
 </script>
 
 <style scoped>
+  #Talks {
+    background-color: hsl(0, 0%, 98%);
+  }
+
   .card-project {
-    padding: 20px !important;
+    padding: 15px !important;
+    margin: 5px 5px 5px 5px;
   }
 </style>
