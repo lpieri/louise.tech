@@ -18,7 +18,7 @@
       <div class="navbar-start">
         <div class="buttons">
           <router-link to="/">
-            <h1 class="title is-1 h1-title">louise.lgbt</h1>
+            <h1 class="title is-1 lato-title-pink">louise.lgbt</h1>
           </router-link>
         </div>
       </div>
@@ -27,7 +27,7 @@
     <div class="navbar-end">
       <div class="navbar-item">
         <div class="buttons">
-          <button class="button is-rounded is-medium is-success" @click="showModal('ContactInfo')">
+          <button class="button is-rounded is-medium" @click="showModal('ContactInfo')">
             <strong>Contact information</strong>
           </button>
         </div>
