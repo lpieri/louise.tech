@@ -8,25 +8,30 @@
         </div>
 
         <div class="columns is-centered">
-          <aside class="menu">
-            <ul class="menu-list">
-              <li><a :class="{'is-active':  ft_is_active}" @click="selectProjects('42')">42 Projects</a></li>
-              <li><a :class="{'is-active':  perso_is_active}" @click="selectProjects('perso')">Perso Projects</a></li>
-            </ul>
-          </aside>
+          <div class="column is-2">
+            <aside class="menu">
+              <ul class="menu-list">
+                <li><a class="title is-5" :class="{'is-active':  ft_is_active}" @click="selectProjects('42')">42 Projects</a></li>
+                <li><a class="title is-5" :class="{'is-active':  perso_is_active}" @click="selectProjects('perso')">Perso Projects</a></li>
+              </ul>
+            </aside>
+          </div>
 
-          <div class="column is-4" v-if="perso_is_active || ft_is_active">
+          <div class="column is-9">
 
-            <div class="card card-project" v-for="project in project_to_print">
-                <div class="media">
-                  <div class="media-content">
-                    <p class="title is-4">{{ project.name }}</p>
+            <div id="carousel" v-if="perso_is_active || ft_is_active">
+
+              <div class="card card-project" v-for="project in project_to_print">
+                  <div class="media">
+                    <div class="media-content">
+                      <p class="title is-4">{{ project.name }}</p>
+                    </div>
                   </div>
-                </div>
 
-                <div class="content">
-                  {{ project.description }}
-                </div>
+                  <div class="content">
+                    {{ project.description }}
+                  </div>
+              </div>
             </div>
 
           </div>
