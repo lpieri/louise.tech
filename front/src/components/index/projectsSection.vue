@@ -24,7 +24,7 @@
                 <div class="column is-5 card card-project" v-for="project in project_to_print">
                     <div class="media">
                       <div class="media-content">
-                        <p class="title is-4">{{ project.name }}</p>
+                        <p class="title is-4"><a :href="project.link">{{ project.name }}</a></p>
                       </div>
                     </div>
 
@@ -32,6 +32,17 @@
                       {{ project.description }}
                     </div>
                 </div>
+
+                <div class="column is-full">
+                  <nav class="pagination is-centered is-rounded" role="navigation" aria-label="pagination">
+                    <ul class="pagination-list">
+                      <li><a class="pagination-link" aria-label="Goto page 1">1</a></li>
+                      <li><span class="pagination-ellipsis">&hellip;</span></li>
+                      <li><a class="pagination-link" aria-label="Goto page 45">2</a></li>
+                    </ul>
+                  </nav>
+                </div>
+
               </div>
 
           </div>
@@ -52,21 +63,35 @@ export default {
       projects_perso: {
         0: {
           name: "Meep",
+          link: "https://github.com/lpieri/Meep",
           description: "Meep is a game with two different worlds and only one mission."
+        },
+        1: {
+          name: "Scripts for 42 sessions",
+          link: "https://github.com/lpieri/scripts_42",
+          description: "Set of functions to change your preferences on Macos."
         }
       },
       ft_projects: {
         0: {
           name: "Swifty Proteins",
+          link: "https://github.com/lpieri/Swifty-Proteins",
           description: "Project 42, where we have to create an iOS application from scratch."
         },
         1: {
           name: "Swifty Companion",
+          link: "https://github.com/lpieri/Swifty-Companion",
           description: "Project 42, where we have to create an iOS application from scratch using the api of 42 and OAuth2."
         },
         2: {
           name: "Boot2Root",
+          link: "https://github.com/lpieri/boot2root",
           description: "An IT security challenge."
+        },
+        3: {
+          name: "ft_ssl",
+          link: "https://github.com/lpieri/ft_ssl",
+          description: "A series of projects of 42, where we have to re-code some part of OpenSSL."
         }
       }
     }
