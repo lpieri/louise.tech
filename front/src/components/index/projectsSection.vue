@@ -19,7 +19,7 @@
 
           <div class="column is-9">
 
-              <div id="carousel" class="columns is-multiline" v-if="perso_is_active || ft_is_active">
+              <div class="columns is-multiline" v-if="perso_is_active || ft_is_active">
 
                 <div class="column is-5 card card-project" v-for="project in project_to_print">
                     <div class="media">
@@ -33,15 +33,15 @@
                     </div>
                 </div>
 
-                <div class="column is-full">
-                  <nav class="pagination is-centered is-rounded" role="navigation" aria-label="pagination">
-                    <ul class="pagination-list">
-                      <li><a class="pagination-link" aria-label="Goto page 1">1</a></li>
-                      <li><span class="pagination-ellipsis">&hellip;</span></li>
-                      <li><a class="pagination-link" aria-label="Goto page 45">2</a></li>
-                    </ul>
-                  </nav>
-                </div>
+                <!--<div class="column is-full">-->
+                  <!--<nav class="pagination is-centered is-rounded" role="navigation" aria-label="pagination">-->
+                    <!--<ul class="pagination-list">-->
+                      <!--<li><a class="pagination-link" aria-label="Goto page 1">1</a></li>-->
+                      <!--<li><span class="pagination-ellipsis">&hellip;</span></li>-->
+                      <!--<li><a class="pagination-link" aria-label="Goto page 45">2</a></li>-->
+                    <!--</ul>-->
+                  <!--</nav>-->
+                <!--</div>-->
 
               </div>
 
