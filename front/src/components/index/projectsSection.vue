@@ -1,5 +1,5 @@
 <template>
-    <section id="Talks" class="section">
+    <section id="Projects" class="section">
       <div class="container">
         <div class="column">
           <h2 class="title is-2 lato-title-black">
@@ -70,6 +70,16 @@ export default {
           name: "Scripts for 42 sessions",
           link: "https://github.com/lpieri/scripts_42",
           description: "Set of functions to change your preferences on Macos."
+        },
+        2: {
+          name: "Tools for Slack",
+          link: "https://github.com/lpieri/api_slack",
+          description: "Tools for easily administering a slack on the command line."
+        },
+        3: {
+          name: "louise.lgbt",
+          link: "https://github.com/lpieri/louise.lgbt",
+          description: "The repository of this web site."
         }
       },
       ft_projects: {
@@ -92,6 +102,16 @@ export default {
           name: "ft_ssl",
           link: "https://github.com/lpieri/ft_ssl",
           description: "A series of projects of 42, where we have to re-code some part of OpenSSL."
+        },
+        4: {
+          name: "ft_malloc",
+          link: "https://github.com/lpieri/ft_malloc",
+          description: "Project of 42 where we recode malloc, free, calloc, realloc."
+        },
+        5: {
+          name: "Darkly",
+          link: "https://github.com/Drakauf/Darkly",
+          description: "Web Security Project."
         }
       }
     }
