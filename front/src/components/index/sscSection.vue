@@ -22,7 +22,7 @@
 
           <div class="column is-full">
             <h4 class="subtitle is-4">Cette année j'ai participé en créant un jeu d'environ 3 mins.</h4>
-            <h4 class="subtitle is-4">Le jeu s'appel Meep, c'est un jeu à deux niveaux: le premier est un niveau où tout est inversé et à l'envers et le second est un niveau où tout est normal.</h4>
+            <h4 class="subtitle is-4">Le jeu s'appel <router-link to="/meep">Meep</router-link>, c'est un jeu à deux niveaux: le premier est un niveau où tout est inversé et à l'envers et le second est un niveau où tout est normal.</h4>
             <h4 class="subtitle is-4">L'histoire est celle d'un petit monstre transgenre bleu qui veut atteindre le niveau final et devenir rose.</h4>
             <h4 class="subtitle is-4">Les deux univers du jeu, sont une métaphore qui représente la transition d'un personne trans.</h4>
           </div>
