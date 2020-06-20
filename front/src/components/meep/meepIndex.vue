@@ -1,6 +1,6 @@
 <template>
   <section class="full-height meep-sky">
-    <div class="card overlay card-index">
+    <div class="card overlay card-meep">
       <figure class="image">
         <img src="../../assets/meep-logo.png" alt="Meep game logo" id="logo"/>
       </figure>
@@ -22,7 +22,7 @@
 </script>
 
 <style scoped>
-  .card-index {
+  .card-meep {
     padding: 21px;
     min-width: 84vh;
     max-width: 105vh;

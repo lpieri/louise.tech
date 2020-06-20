@@ -1,7 +1,7 @@
 <template>
 <section class="particles full-height">
 
-  <div class="card overlay card-index">
+  <div class="card overlay card-error">
     <h1 class="title is-1 lato-title-black">ERROR 404</h1>
   </div>
 
@@ -17,7 +17,7 @@
 </script>
 
 <style>
-  .card-index {
+  .card-error {
     padding: 21px;
     min-width: 21vh;
     max-height: 21vh;
