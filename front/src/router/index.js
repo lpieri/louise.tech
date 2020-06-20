@@ -2,6 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import index from '@/pages/index'
 import meep from '@/pages/meep'
+import NotFoundComponent from '@/components/error404'
 Vue.use(Router)
 
 export default new Router({
@@ -15,6 +16,10 @@ export default new Router({
       path: '/meep',
       name: 'Meep',
       component: meep
+    },
+    {
+      path: '*',
+      component: NotFoundComponent
     }
   ],
   mode: 'history'
