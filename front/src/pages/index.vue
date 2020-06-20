@@ -1,6 +1,7 @@
 <template>
   <div>
     <SectionParticales></SectionParticales>
+    <SwiftStudentChallengeSection></SwiftStudentChallengeSection>
     <projects-section></projects-section>
     <talks-section></talks-section>
   </div>
@@ -8,6 +9,7 @@
 
 <script>
 import SectionParticales from '@/components/index/sectionParticles'
+import SwiftStudentChallengeSection from '@/components/index/sscSection'
 import TalksSection from '@/components/index/talksSection'
 import ProjectsSection from '@/components/index/projectsSection'
 
@@ -15,6 +17,7 @@ export default {
 	name: 'Index',
   components: {
     SectionParticales,
+    SwiftStudentChallengeSection,
     TalksSection,
     ProjectsSection
   },

@@ -146,7 +146,7 @@ export default {
 </script>
 
 <style scoped>
-  #Talks {
+  #Projects {
     background-color: hsl(0, 0%, 98%);
   }
 
