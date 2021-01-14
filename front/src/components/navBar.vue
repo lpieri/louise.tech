@@ -15,7 +15,7 @@
       <div class="navbar-start">
         <div class="buttons">
           <router-link to="/">
-            <h1 class="title is-1 lato-title-pink">louise.lgbt</h1>
+            <h1 class="title is-1 lato-title-pink">louise.tech</h1>
           </router-link>
         </div>
       </div>

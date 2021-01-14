@@ -4,7 +4,7 @@
       <p>
         <strong>Made with ❤️ by myself</strong>
         <br/>
-        <strong>@2020 - Louise Pieri</strong>
+        <strong>@2021 - Louise Pieri</strong>
       </p>
     </div>
   </footer>
