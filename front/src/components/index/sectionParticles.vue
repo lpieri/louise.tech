@@ -2,8 +2,9 @@
   <section class="particles full-height">
     <div class="card overlay card-index">
       <figure class="image is-square">
-        <img src="../../assets/logo.png" alt="logo" id="logo"/>
+        <img src="../../assets/logo-2.png" alt="logo" id="logo"/>
       </figure>
+<!--      <h1 class="title is-4">Développeuse Freelance</h1>-->
     </div>
 
     <a href="#Projects">

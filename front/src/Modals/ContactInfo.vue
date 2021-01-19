@@ -38,11 +38,11 @@
           },
           "twitter": {
             logo: "twitter.png",
-            link: "https://twitter.com/__lpieri__"
+            link: "https://twitter.com/ldelay_"
           },
           "mail": {
             logo: "gmail.png",
-            link: "mailto:louise.pieri.42@gmail.com"
+            link: "mailto:pieri.louise@icloud.com"
           }
         }
       }
