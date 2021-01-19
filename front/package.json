@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "ajv": "^6.12.6",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "babel": "^6.23.0",
     "bulma-slider": "^2.0.4",
     "core-js": "^3.8.3",
