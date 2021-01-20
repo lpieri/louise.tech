@@ -36,6 +36,10 @@
             logo: "linkedin.png",
             link: "https://www.linkedin.com/in/lpieri/"
           },
+          "malt": {
+            logo: "malt.png",
+            link: "https://www.malt.fr/profile/delay"
+          },
           "twitter": {
             logo: "twitter.png",
             link: "https://twitter.com/ldelay_"

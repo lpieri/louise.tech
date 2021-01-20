@@ -1,7 +1,9 @@
 <template>
   <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
-      <router-link class="navbar-item" to="/"></router-link>
+      <router-link class="navbar-item" to="/">
+        <h1 class="title is-1 lato-title-pink">louise.tech</h1>
+      </router-link>
 
       <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
         <span aria-hidden="true"></span>
@@ -12,18 +14,8 @@
     </div>
 
     <div id="navbarBasicExample" class="navbar-menu">
-      <div class="navbar-start">
-        <div class="buttons">
-          <router-link to="/">
-            <h1 class="title is-1 lato-title-pink">louise.tech</h1>
-          </router-link>
-        </div>
-      </div>
-    </div>
-
-    <div class="navbar-end">
-      <div class="navbar-item">
-        <div class="buttons">
+      <div class="navbar-end">
+        <div class="navbar-item buttons">
           <button class="button is-rounded is-medium" @click="showModal('ContactInfo')">
             <strong>Contact information</strong>
           </button>
