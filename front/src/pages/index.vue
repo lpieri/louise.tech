@@ -2,6 +2,7 @@
   <div>
     <SectionParticales></SectionParticales>
     <projects-section></projects-section>
+    <TimeLineSection></TimeLineSection>
     <SwiftStudentChallengeSection></SwiftStudentChallengeSection>
     <talks-section></talks-section>
   </div>

@@ -1,47 +1,138 @@
 <template>
   <section id="TimeLine" class="section">
-    <div class="timeline is-centered">
-      <header class="timeline-header">
-        <span class="tag is-medium is-primary">Start</span>
-      </header>
-      <div class="timeline-item is-primary">
-        <div class="timeline-marker is-primary"></div>
-        <div class="timeline-content">
-          <p class="heading">January 2016</p>
-          <p>Timeline content - Can include any HTML element</p>
-        </div>
+    <div class="container">
+      <div class="column">
+        <h2 class="title is-2 lato-title-black">
+          Timeline :
+        </h2>
       </div>
-      <div class="timeline-item is-warning">
-        <div class="timeline-marker is-warning is-image is-32x32">
-          <img src="https://bulma.io/images/placeholders/32x32.png">
+
+      <div class="timeline is-centered">
+        <header class="timeline-header">
+          <span class="tag is-large is-link">2017</span>
+        </header>
+        <div class="timeline-item is-link" v-for="event in event_2017">
+          <div class="timeline-marker is-link"></div>
+          <div class="timeline-content">
+            <p class="heading">{{ event.date }}</p>
+            <p>{{ event.description }}</p>
+          </div>
         </div>
-        <div class="timeline-content">
-          <p class="heading">February 2016</p>
-          <p>Timeline content - Can include any HTML element</p>
+        <header class="timeline-header">
+          <span class="tag is-medium is-link">2018</span>
+        </header>
+        <div class="timeline-item is-link" v-for="event in event_2018">
+          <div class="timeline-marker is-link"></div>
+          <div class="timeline-content">
+            <p class="heading">{{ event.date }}</p>
+            <p>{{ event.description }}</p>
+          </div>
         </div>
+        <header class="timeline-header">
+          <span class="tag is-medium is-link">2019</span>
+        </header>
+        <div class="timeline-item is-link" v-for="event in event_2019">
+          <div class="timeline-marker is-link"></div>
+          <div class="timeline-content">
+            <p class="heading">{{ event.date }}</p>
+            <p>{{ event.description }}</p>
+          </div>
+        </div>
+        <header class="timeline-header">
+          <span class="tag is-medium is-link">2020</span>
+        </header>
+        <div class="timeline-item is-link" v-for="event in event_2018">
+          <div class="timeline-marker is-link"></div>
+          <div class="timeline-content">
+            <p class="heading">{{ event.date }}</p>
+            <p>{{ event.description }}</p>
+          </div>
+        </div>
+        <header class="timeline-header">
+          <span class="tag is-large is-link">Today</span>
+        </header>
       </div>
-      <header class="timeline-header">
-        <span class="tag is-primary">2017</span>
-      </header>
-      <div class="timeline-item is-danger">
-        <div class="timeline-marker is-danger is-icon">
-          <i class="fa fa-flag"></i>
-        </div>
-        <div class="timeline-content">
-          <p class="heading">March 2017</p>
-          <p>Timeline content - Can include any HTML element</p>
-        </div>
-      </div>
-      <header class="timeline-header">
-        <span class="tag is-medium is-primary">End</span>
-      </header>
     </div>
   </section>
 </template>
 
 <script>
 export default {
-name: "timelineSection"
+name: "timelineSection",
+  data () {
+    return {
+      event_2017: {
+        0: {
+          date: "August 2017",
+          description: "Piscine of 42 Paris"
+        },
+        1:{
+          date: "September 2017",
+          description: "Start of my schooling at 42 Paris"
+        }
+      },
+      event_2018: {
+        0: {
+          date: "March 2018",
+          description: "1st team of Hackathon HART"
+        },
+        1: {
+          date: "June - December 2018",
+          description: "Beginning of my First-Internship at 42 Lyon"
+        },
+        2:{
+          date: "July 2018",
+          description: "42 Project: RT"
+        },
+        3:{
+          date: "July 2018",
+          description: "Level 7 at 42"
+        },
+        4: {
+          date: "December 2018",
+          description: "End of my internship at 42 Lyon"
+        },
+        5: {
+          date: "December 2018",
+          description: "Level 11 at 42"
+        }
+      },
+      event_2019: {
+        0: {
+          date: "April 2019",
+          description: "42 Project: ft_ssl_md5"
+        },
+        1: {
+          date: "May 2019",
+          description: "1st team of Hackathon Born2Hack"
+        },
+        2: {
+          date: "August 2019",
+          description: "42 Project: Matcha"
+        },
+        3: {
+          date: "August 2019",
+          description: "Creation of the association 42 Blockchain"
+        },
+        4: {
+          date: "September 2019",
+          description: "42 Project: RogerSkyline2"
+        },
+        5:{
+          date: "September 2019",
+          description: "Start of project Blockchain-Service (part of 42 Alumni)"
+        },
+        6: {
+          date: "November 2019",
+          description: "42 Project: Malloc"
+        },
+        7: {
+          date: "November 2019",
+          description: "Level 14 at 42"
+        }
+      }
+    }
+  }
 }
 </script>
 
