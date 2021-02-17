@@ -23,7 +23,7 @@
 </script>
 
 <style scoped>
-@media (min-width: 481px) and (max-width: 767px) {
+@media only screen and (min-height: 375px) and (max-width: 823px) {
   .card-index {
     padding: 21px;
     min-width: 21vh;
@@ -37,7 +37,7 @@
     min-width: 6vh;
     max-height: 6vh;
     max-width: 6vh;
-    margin: -10.5vh 0 0 -4.5vh;
+    margin: -10.5vh 0 0 -4vh;
   }
 }
 
