@@ -24,6 +24,10 @@ export default {
 </script>
 
 <style scoped>
+#Talks {
+  background-color: hsl(0, 0%, 98%);
+}
+
 .player-center {
   display: flex !important;
   justify-content: center;

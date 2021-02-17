@@ -39,8 +39,4 @@ export default {
 </script>
 
 <style scoped>
-#Swift-Student-Challenge {
-  background-color: hsl(0, 0%, 98%);
-}
-
 </style>

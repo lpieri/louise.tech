@@ -12,6 +12,7 @@ import SectionParticales from '@/components/index/sectionParticles'
 import SwiftStudentChallengeSection from '@/components/index/sscSection'
 import TalksSection from '@/components/index/talksSection'
 import ProjectsSection from '@/components/index/projectsSection'
+import TimeLineSection from '@/components/index/timelineSection'
 
 export default {
 	name: 'Index',
@@ -19,7 +20,8 @@ export default {
     SectionParticales,
     SwiftStudentChallengeSection,
     TalksSection,
-    ProjectsSection
+    ProjectsSection,
+    TimeLineSection
   },
   data () {
 	  return {
