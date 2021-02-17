@@ -29,7 +29,7 @@
     min-width: 21vh;
     max-height: 42vh;
     max-width: 42vh;
-    margin: -18vh 0 0 -18.5vh;
+    margin: -18vh 0 0 -19vh;
   }
 
   .arrow-index {
@@ -37,7 +37,7 @@
     min-width: 6vh;
     max-height: 6vh;
     max-width: 6vh;
-    margin: -10.5vh 0 0 -4vh;
+    margin: -10.5vh 0 0 -4.5vh;
   }
 }
 
@@ -83,7 +83,7 @@
     min-width: 21vh;
     max-height: 42vh;
     max-width: 42vh;
-    margin: -18vh 0 0 -15vh;
+    margin: -18vh 0 0 -16vh;
   }
 
   .arrow-index {
