@@ -146,10 +146,6 @@ export default {
 </script>
 
 <style scoped>
-  #Projects {
-    background-color: hsl(0, 0%, 98%);
-  }
-
   .card-project {
     padding: 15px !important;
     margin: 5px 5px 5px 5px;

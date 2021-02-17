@@ -1,8 +1,8 @@
 <template>
   <div>
     <SectionParticales></SectionParticales>
-    <SwiftStudentChallengeSection></SwiftStudentChallengeSection>
     <projects-section></projects-section>
+    <SwiftStudentChallengeSection></SwiftStudentChallengeSection>
     <talks-section></talks-section>
   </div>
 </template>
