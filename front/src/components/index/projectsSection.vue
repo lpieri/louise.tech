@@ -77,8 +77,8 @@ export default {
           description: "Tools for easily administering a slack on the command line."
         },
         3: {
-          name: "louise.lgbt",
-          link: "https://github.com/lpieri/louise.lgbt",
+          name: "louise.tech",
+          link: "https://github.com/lpieri/louise.tech",
           description: "The repository of this web site."
         }
       },

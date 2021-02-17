@@ -42,11 +42,11 @@
           },
           "twitter": {
             logo: "twitter.png",
-            link: "https://twitter.com/ldelay_"
+            link: "https://twitter.com/louise_tech_"
           },
           "mail": {
             logo: "gmail.png",
-            link: "mailto:pieri.louise@icloud.com"
+            link: "mailto:contact@louise.tech"
           }
         }
       }
