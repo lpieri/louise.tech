@@ -12,10 +12,11 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "@egjs/flicking-plugins": "^3.3.0",
+    "@egjs/vue-flicking": "^3.5.3",
     "ajv": "^6.12.6",
     "axios": "^0.21.1",
     "babel": "^6.23.0",
-    "bulma-slider": "^2.0.4",
     "bulma-timeline": "^3.0.4",
     "core-js": "^3.8.3",
     "crypto": "^1.0.1",

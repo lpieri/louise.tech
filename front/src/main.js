@@ -6,9 +6,11 @@ import router from './router'
 // import axios from 'axios'
 // import VueSession from 'vue-session'
 import VueParticles from 'vue-particles'
+import VueFlicking from "@egjs/vue-flicking";
 //
 // Vue.use(VueSession)
 Vue.use(VueParticles)
+Vue.use(VueFlicking)
 
 require('./scss/styles.sass');
 //
