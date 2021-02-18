@@ -8,10 +8,10 @@
         </div>
 
         <flicking class="flicking flicking0" :options="{ gap: 21, circular: true}">
-          <div class="panel card card-project">
+          <div class="panel card card-carousel">
             <div class="media">
               <div class="media-content">
-                <p class="title is-4">Article: Changing the world</p>
+                <p class="title is-4">Article: Changing the world, one Swift playground at a time by Apple</p>
               </div>
             </div>
             <div class="content">
@@ -20,7 +20,21 @@
               </a>
             </div>
           </div>
-          <div class="panel card card-project">
+
+          <div class="panel card card-carousel">
+            <div class="media">
+              <div class="media-content">
+                <p class="title is-4">Article: Avec Meep, Louise remporte le Swift Student Challenge (Apple) 2020 by 42</p>
+              </div>
+            </div>
+            <div class="content">
+              <a href="https://www.42.fr/meep-swift-student-challenge-2020/">
+                <img width="560" height="315" src="../../assets/meep-logo.png" />
+              </a>
+            </div>
+          </div>
+
+          <div class="panel card card-carousel">
             <div class="media">
               <div class="media-content">
                 <p class="title is-4">Trailer: Fall Girl</p>
@@ -30,7 +44,8 @@
               <iframe width="560" height="315" src="https://www.youtube.com/embed/9cey6-75uwg" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
           </div>
-          <div class="panel card card-project">
+
+          <div class="panel card card-carousel">
             <div class="media">
               <div class="media-content">
                 <p class="title is-4">Talk: Le P2P Learning</p>
@@ -48,7 +63,6 @@
 
 <script>
 import { Flicking } from "@egjs/vue-flicking";
-// import { Fade } from "@egjs/flicking-plugins";
 
 export default {
   name: "talksSection",
@@ -69,7 +83,9 @@ export default {
   justify-content: center;
 }
 
-.card-project {
+.card-carousel {
+  width: 31vw !important;
+  height: 45vh !important;
   padding: 15px !important;
   margin: 5px 5px 5px 5px;
 }
