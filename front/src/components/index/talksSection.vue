@@ -3,13 +3,11 @@
       <div class="container">
         <div class="column">
           <h2 class="title is-2 lato-title-black">
-            Talks :
+            Articles, Talks, Trailers :
           </h2>
         </div>
 
-        <flicking class="flicking flicking0"
-          :options="{ gap: 21, circular: true}"
-        >
+        <flicking class="flicking flicking0" :options="{ gap: 21, circular: true}">
           <div class="panel card card-project">
             <div class="media">
               <div class="media-content">
