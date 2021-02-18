@@ -11,7 +11,7 @@
           <div class="panel card card-carousel">
             <div class="media">
               <div class="media-content">
-                <p class="title is-4">Article: Changing the world, one Swift playground at a time by Apple</p>
+                <p class="title is-4"><span class="title is-4 lato-title-black">Article:</span> Changing the world, one Swift playground at a time by Apple</p>
               </div>
             </div>
             <div class="content">
@@ -24,7 +24,7 @@
           <div class="panel card card-carousel">
             <div class="media">
               <div class="media-content">
-                <p class="title is-4">Article: Avec Meep, Louise remporte le Swift Student Challenge (Apple) 2020 by 42</p>
+                <p class="title is-4"><span class="title is-4 lato-title-black">Article:</span> Avec Meep, Louise remporte le Swift Student Challenge (Apple) 2020 by 42</p>
               </div>
             </div>
             <div class="content">
@@ -37,7 +37,7 @@
           <div class="panel card card-carousel">
             <div class="media">
               <div class="media-content">
-                <p class="title is-4">Trailer: Fall Girl</p>
+                <p class="title is-4"><span class="title is-4 lato-title-black">Trailer:</span> Fall Girl</p>
               </div>
             </div>
             <div class="content">
@@ -48,7 +48,7 @@
           <div class="panel card card-carousel">
             <div class="media">
               <div class="media-content">
-                <p class="title is-4">Talk: Le P2P Learning</p>
+                <p class="title is-4"><span class="title is-4 lato-title-black">Talk:</span> Le P2P Learning</p>
               </div>
             </div>
             <div class="content">
