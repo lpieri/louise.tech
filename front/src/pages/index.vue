@@ -1,9 +1,9 @@
 <template>
   <div>
     <SectionParticales></SectionParticales>
-    <projects-section></projects-section>
     <TimeLineSection></TimeLineSection>
     <SwiftStudentChallengeSection></SwiftStudentChallengeSection>
+    <projects-section></projects-section>
     <talks-section></talks-section>
   </div>
 </template>

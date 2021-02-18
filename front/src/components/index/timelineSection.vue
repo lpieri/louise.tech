@@ -154,8 +154,8 @@ name: "timelineSection",
 </script>
 
 <style scoped>
-#TimeLine {
-  background-color: hsl(0, 0%, 98%);
-}
+/*#TimeLine {*/
+/*  background-color: hsl(0, 0%, 98%);*/
+/*}*/
 
 </style>
