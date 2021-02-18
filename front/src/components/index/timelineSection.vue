@@ -52,7 +52,7 @@ name: "timelineSection",
           events: {
             0: {
               date: "March 2018",
-              description: "1st team of Hackathon HART"
+              description: "1st team of the Hackathon HART"
             },
             1: {
               date: "June 2018",
@@ -64,7 +64,7 @@ name: "timelineSection",
             },
             3:{
               date: "July 2018",
-              description: "Level 7 at 42"
+              description: "Level 7 in the cursus 42"
             },
             4: {
               date: "December 2018",
@@ -72,7 +72,7 @@ name: "timelineSection",
             },
             5: {
               date: "December 2018",
-              description: "Level 11 at 42"
+              description: "Level 11 in the cursus 42"
             }
           }
         },
@@ -85,7 +85,7 @@ name: "timelineSection",
             },
             1: {
               date: "May 2019",
-              description: "1st team of Hackathon Born2Hack"
+              description: "1st team of the Hackathon Born2Hack"
             },
             2: {
               date: "August 2019",
@@ -109,7 +109,7 @@ name: "timelineSection",
             },
             7: {
               date: "November 2019",
-              description: "Level 14 at 42"
+              description: "Level 14 in the cursus 42"
             }
           }
         },
@@ -126,7 +126,7 @@ name: "timelineSection",
             },
             2: {
               date: "May 2020",
-              description: "Level 16 at 42"
+              description: "Level 16 in the cursus 42"
             },
             3: {
               date: "June 2020",
@@ -134,7 +134,7 @@ name: "timelineSection",
             },
             4: {
               date: "November 2020",
-              description: "Level 19 at 42"
+              description: "Level 19 in the cursus 42"
             },
           }
         },
