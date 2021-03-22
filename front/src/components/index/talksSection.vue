@@ -85,7 +85,7 @@ export default {
 @media only screen and (max-width: 1023px) {
   .card-carousel {
     width: 31vw !important;
-    height: 21vh !important;
+    height: 23vh !important;
     padding: 15px !important;
     margin: 5px 5px 5px 5px;
   }
