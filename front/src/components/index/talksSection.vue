@@ -12,7 +12,7 @@
             <div class="media is-center">
               <div class="media-content">
                 <p class="title is-5 is-hidden-touch"><span class="title is-5 lato-title-black">Article:</span> Changing the world, one Swift playground at a time by Apple</p>
-                <p class="title is-5 is-hidden-desktop"><span class="title is-5 lato-title-black">Article:</span> <a href="https://developer.apple.com/news/?id=aprhkd7d">Changing the world, one Swift playground at a time by Apple</a></p>
+                <p class="title is-6 is-hidden-desktop"><span class="title is-6 lato-title-black">Article:</span> <a href="https://developer.apple.com/news/?id=aprhkd7d">Changing the world, one Swift playground at a time by Apple</a></p>
               </div>
             </div>
             <div class="content is-hidden-touch">
@@ -26,7 +26,7 @@
             <div class="media">
               <div class="media-content">
                 <p class="title is-5 is-hidden-touch"><span class="title is-5 lato-title-black">Article:</span> Avec Meep, Louise remporte le Swift Student Challenge (Apple) 2020 by 42</p>
-                <p class="title is-5 is-hidden-desktop"><span class="title is-5 lato-title-black">Article:</span> <a href="https://www.42.fr/meep-swift-student-challenge-2020/">Avec Meep, Louise remporte le Swift Student Challenge (Apple) 2020 by 42</a></p>
+                <p class="title is-6 is-hidden-desktop"><span class="title is-6 lato-title-black">Article:</span> <a href="https://www.42.fr/meep-swift-student-challenge-2020/">Avec Meep, Louise remporte le Swift Student Challenge (Apple) 2020 by 42</a></p>
               </div>
             </div>
             <div class="content is-hidden-touch">
@@ -40,7 +40,7 @@
             <div class="media">
               <div class="media-content">
                 <p class="title is-5 is-hidden-touch"><span class="title is-5 lato-title-black">Trailer:</span> Fall Girl</p>
-                <p class="title is-5 is-hidden-desktop"><span class="title is-5 lato-title-black">Trailer:</span> <a href="https://youtu.be/9cey6-75uwg">Fall Girl</a></p>
+                <p class="title is-6 is-hidden-desktop"><span class="title is-6 lato-title-black">Trailer:</span> <a href="https://youtu.be/9cey6-75uwg">Fall Girl</a></p>
               </div>
             </div>
             <div class="content is-hidden-touch">
