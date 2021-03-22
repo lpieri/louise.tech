@@ -85,3 +85,9 @@
     }
   }
 </script>
+
+<style>
+.navbar {
+  background: #ffffffde !important;
+}
+</style>
